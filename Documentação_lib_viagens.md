@@ -31,6 +31,8 @@ exemplo de entrada:[{"produto":" ","valor":0,"destino":"sao paulo sp","limite":"
     {"produto":"sofá","valor":10.0,"destino":"juiz de fora minas gerais","limite":"2020-05-10"},
         {"produto": "geladeira", "valor": 25.0, "destino": "salvador bahia", "limite": "2020-05-11"},
          {"produto": "computador", "valor": 54.0, "destino": "campo grande mato grosso do sul ", "limite": "2020-05-12"}  ]
+ 
+ OBS : Com exceção da cidade inicial, os destinos podem ser escritos com assentos e usando letras maiúsculas, como exemplo:"Juiz de Fora","Jaboatão dos Guararapes"
 ### Retorno
 retorna uma lista com as cidades na ordem em que devem ser feitas as entregas, em que essa ordem foi gerada por um algormito de escolha do vizinho mais próximo.
 
