@@ -21,8 +21,8 @@ Possui duas soluções, uma na chamada /otimizar_simples/, em que foi usado o al
 
 [{"produto":" ","valor":0,"destino":"sao paulo sp","limite":"2020-05-9"},
     {"produto":"sofá","valor":10.0,"destino":"juiz de fora mg","limite":"2020-05-10"},
-        {"produto": "geladeira", "valor": 5.0, "destino": "salvador bahia", "limite": "2020-05-11"},
-         {"produto": "computador", "valor": 200.0, "destino": "campo grande mato grosso do sul ", "limite": "2020-05-12"}  ]
+        {"produto": "geladeira", "valor": 25.0, "destino": "salvador bahia", "limite": "2020-05-11"},
+         {"produto": "computador", "valor": 54.0, "destino": "campo grande mato grosso do sul ", "limite": "2020-05-12"}  ]
          
 Sendo:
 produto: string com o nome do produto transportado
@@ -32,5 +32,5 @@ limite: string com a data limite que o produto deve ser entregue para a empresa 
 
 Ao final, teremos a lista das cidades, começando por São Paulo, na ordem em que as entregas deverão ser feitas.
 
-Ps: na chama /otimizar_completo/,os códigos do seguinte link foram usados para a implementação do "simulated annealing": https://github.com/perrygeo/simanneal 
+Ps: na chama /otimizar_completo/,os códigos do seguinte link foram usados para a implementação do "simulated annealing": https://github.com/perrygeo/simanneal, que se encontram na pasta "annealing" nesse repositório.
 
