@@ -26,8 +26,8 @@ retorna o menor elemento de lst
 ## otimizar(lista):
 ### Parâmetros de entrada
 - lista: recebe uma lista que os elementos são da seguinte forma : {"produto": string com o nome do produto a ser transportado,"valor":float com o valor da entrega,"destino":string com a cidade de destino do produto,"limite":string com a data de entrega limite para o lucro máximo na entrega necessáriamente no formato "ano-mes-dia"}
-- OBS : o primeiro elemento da lista precisa deve possuir como destino a cidade de onde o transporte começará a fazer as entradas e o limite deve ser a data em que esse transporte se inicia. Nesse primeiro elemento, o atributo produto pode ser preenchido com qualquer string e o valor com qualquer float 
-exemplo de entrada:[{"produto":" ","valor":0,"destino":"sao paulo sao paulo","limite":"2020-05-09"},
+- OBS : o primeiro elemento da lista precisa deve possuir como destino a cidade de onde o transporte começará a fazer as entregas,que sendo a cidade de São Paulo, deve ser passada especificamente como "sao paulo sp" e o limite deve ser a data em que esse transporte se inicia. Nesse primeiro elemento, o atributo produto pode ser preenchido com qualquer string e o valor com qualquer float 
+exemplo de entrada:[{"produto":" ","valor":0,"destino":"sao paulo sp","limite":"2020-05-09"},
     {"produto":"sofá","valor":10.0,"destino":"juiz de fora minas gerais","limite":"2020-05-10"},
         {"produto": "geladeira", "valor": 25.0, "destino": "salvador bahia", "limite": "2020-05-11"},
          {"produto": "computador", "valor": 54.0, "destino": "campo grande mato grosso do sul ", "limite": "2020-05-12"}  ]
