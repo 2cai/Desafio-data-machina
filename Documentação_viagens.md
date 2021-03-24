@@ -1,4 +1,4 @@
-# Documentação da Api viagens explicando as funções usadas
+# Documentação da Api viagem explicando as funções usadas
 
 ## Toda construção da API foi utilizada com o método post, com as funções a seguir usadas para retornar o desejado, de tal maneira que essas funções foram construídas com a biblioteca lib_viagens que possui sua documentação também nesse repositório.
 
