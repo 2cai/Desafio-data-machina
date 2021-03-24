@@ -15,9 +15,9 @@ Se p=2 , retorna o tempo da viagem em minutos, caso contrário, retorna um texto
 - nome : recebe uma string
 ### Retorno
 Retorna essa string sem acentos e com notas as letras em minúsculo, por exemplo:
->> cidade = dados_viagem("São Paulo")
->> print(cidade)
->> sao paulo
+cidade = dados_viagem("São Paulo")
+print(cidade)
+sao paulo
 
 ## buscarmenor(lst):
 ### Parâmetros de entrada
