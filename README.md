@@ -1,5 +1,5 @@
 # Desafio-data-machina
-##Os problemas em questão foram feitos usando a biblioteca FastApi para a criação de uma API que possivel chamadas para seus respectivos problemas. Para uso dos códigos, é necessário baixa-los e colocar eles em uma mesma pasta,rodar no ##terminal ou em alguma IDE o seguinte código:
+##Os problemas em questão foram feitos usando a biblioteca FastApi para a criação de uma API que possivel chamadas para seus respectivos problemas. Para uso dos códigos, é necessário baixa-los e colocar eles em uma mesma pasta,rodar no terminal ou em alguma IDE na pasta onde está o codigo "viagem" o seguinte código:
 
 uvicorn viagem:app --reload
  
