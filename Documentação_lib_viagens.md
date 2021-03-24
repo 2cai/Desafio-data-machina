@@ -78,7 +78,12 @@ retorna um dicionário com cada destino tendo a porcentagem de valor no total qu
 - Retorna o inteiro 2 se dados_viagem(atual, destino, 2)  > peso_tempo(atual, destino, lista) e o inteiro 1 se dados_viagem(atual, destino, 2)<=peso_tempo(atual, destino, lista).
 
 ## TravellingSalesmanProblem(Annealer):
-Importada dos códigos indicados no README para o uso do algoritmo 
+Importada dos códigos indicados no README para o uso do algoritmo "simulated annealing" , em que temos a função __int__ para a criação de uma matriz que relaciona todas as cidades, duas a duas, pela métrica de avalição da otimização, sendo essa métrica calculada por:
+
+- sendo A = cidade atual e B = cidade destino:
+ ### métrica = dados_viagem(A, B, 2)* i_produtos(lista_cidades(lista_t))[B] * peso_atraso(atual,destino,lista_cidades(lista_t))
+ 
+ Além disso, teremos 
 
 
 
