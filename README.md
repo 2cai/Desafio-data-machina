@@ -17,8 +17,18 @@ Se p for igual a 2, será retornado um inteiro informado a duração da viagem e
 
 ### Problema 2.2:
 Possui duas soluções, uma na chamada /otimizar_simples/ e outra na /otimizar_completo/. Em ambos os casos, a entrada deve ser uma lista em que o primeiro elemento deve ser a cidade de origem dos trajeto, que nesse caso é São Paulo. A entrada deve ser passada da seguinte forma:
+
+
 [{"produto":" ","valor":0,"destino":"sao paulo sp","limite":"2020-05-9"},
     {"produto":"sofá","valor":10.0,"destino":"juiz de fora mg","limite":"2020-05-10"},
-        {"produto": "asa de galinha", "valor": 5.0, "destino": "salvador bahia", "limite": "2020-05-11"},
-         {"produto": "sofa", "valor": 50,destino": "campo grande mato grosso do sul ", "limite": "2020-05-12"}  ]
+        {"produto": "geladeira", "valor": 5.0, "destino": "salvador bahia", "limite": "2020-05-11"},
+         {"produto": "computador", "valor": 200.0, "destino": "campo grande mato grosso do sul ", "limite": "2020-05-12"}  ]
+         
+Sendo:
+produto: o nome do produto transportado
+valor: o custo do seu transporte
+destino: a cidade em que ele deve ser entregue
+limite: a data limite que o produto deve ser entregue para a empresa obter o maior lucro com o serviço
+
+Ps: na chama /otimizar_completo/, foi usados para a resolução do problema a meta_heurística "simulated annealing", em que os códigos do seguinte link foram usados para usar sua implementação: https://github.com/perrygeo/simanneal 
 
