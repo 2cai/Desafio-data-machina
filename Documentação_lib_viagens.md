@@ -14,11 +14,7 @@ Se p=2 , retorna o tempo da viagem em minutos, caso contrário, retorna um texto
 ### Parâmetros de entrada
 - nome : recebe uma string
 ### Retorno
-Retorna essa string sem acentos e com notas as letras em minúsculo, por exemplo:
-cidade = dados_viagem("São Paulo")
-print(cidade)
-sao paulo
-
+Retorna essa string sem acentos e com notas as letras em minúsculo, por exemplo: nome = entrada_dados_viagem("São Paulo") , então nome = "sao paulo"
 ## buscarmenor(lst):
 ### Parâmetros de entrada
 - lst: recebe uma lista de inteiros ou floats
@@ -27,7 +23,9 @@ retorna o menor elemento de lst
 
 ## otimizar(lista):
 ### Parâmetros de entrada
-- lista: recebe uma lista que os elementos são da seguinte forma : {produto:"nome do produto a ser transportado",}
+- lista: recebe uma lista que os elementos são da seguinte forma : {"produto": string com o nome do produto a ser transportado,"valor":float com o valor da entrega,"destino":string com a cidade de destino do produto,"limite":string com a data de entrega limite para o lucro máximo na entrega necessáriamente no formato "ano-mes-dia"}
+
+exemplo de entrada: 
 
 
 
