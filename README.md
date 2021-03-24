@@ -4,7 +4,11 @@
 uvicorn viagem:app --reload
  
 Em seguida,copie o url de saída e adicione um "/docs" para entrar no ambiente de teste do Fast Api. O endereço ficará da seguinte forma : //127.0.0.1:8000/docs
-### Agora, os argumentos serão passados em forma de query paramerts, tendo cada chamada um dos exercícios relacionados
+### Agora, os argumentos serão passados em forma de query paramerts, tendo cada chamada um dos exercícios relacionados da seguinte forma:
+#### Problema 2.1:
+Solucionado na chamada get_normalization, onde a entrada deve ser uma lista de interios ou floats como o seguinte exemplo : [1,2,5,90]
+
+
 
 
 
