@@ -3,8 +3,8 @@ A biblioteca lib_viagens possui as funções utilizar na execução do programa 
 
 ## dados_viagem(atual,destino,p)
 ### Parâmetros de entrada
-- atual: recebe uma string que deve possuir o nome da cidade de inicio como no seguinte exemplo: "juiz de fora minas gerais","Jaboatão dos Guararapes Recife".
-- destino: recebe uma string que deve possuir o nome da cidade de destino s como no seguinte exemplo:"rio de janeiro rio de janeiro" , "Belo Horizonte Minas Gerais
+- atual: recebe uma string que deve possuir o nome da cidade de inicio e o seu estado como no seguinte exemplo: "juiz de fora minas gerais","Jaboatão dos Guararapes Recife".
+- destino: recebe uma string que deve possuir o nome da cidade de destino e o seu estado como no seguinte exemplo:"rio de janeiro rio de janeiro" , "Belo Horizonte Minas Gerais
 - p: inteiro
 ### Retorno
 Se p=2 , retorna o tempo da viagem em minutos, caso contrário, retorna um texto do tipo string informando a duração da viagem e a distância percorrida como no seguinte exemplo:
