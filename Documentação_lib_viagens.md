@@ -66,7 +66,7 @@ retorna um dicionário com cada destino tendo a porcentagem de valor no total qu
 - lista: (já mencionada)
 
 ### Retorno:
--Retona um inteiro que é a diferença de tempo em dias entre as datas limites dos parâmetros atual e destino, em que esses dois são atributos "destino" da lista e a data, atributos "limite".
+-Retona um inteiro que é a diferença de tempo em minutos entre as datas limites dos parâmetros atual e destino, em que esses dois são atributos "destino" da lista e a data, atributos "limite".
 
 ## peso_atraso(atual,destino,lista):
 -atual : (já mencionado)
