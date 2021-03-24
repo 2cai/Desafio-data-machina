@@ -10,6 +10,8 @@ A biblioteca lib_viagens possui as funções utilizar na execução do programa 
 Se p=2 , retorna o tempo da viagem em minutos, caso contrário, retorna um texto do tipo string informando a duração da viagem e a distância percorrida como no seguinte exemplo:
 "A distancia percorrida no trajeto entre rio de janeiro rio de janeiro e juiz de fora minas gerais é de 184,0 km e a duração estimada é de 2 horas e 51 minutos"
 
+##(A partir daqui, todos os parâmetros de entrada atual e destino serão do mesmo formato como citado acima)
+
 ## entrada_dados_viagem(nome)
 ### Parâmetros de entrada
 - nome : recebe uma string
@@ -47,6 +49,9 @@ retorna um dicionário com cada destino tendo a porcentagem de valor no total qu
  retorna uma um dicionário em que cada destino possui como elemento a data limite de entrega 
  
  - exemplo:{'sao paulo sp': '2020-05-09', 'juiz de fora mg': '2020-05-10', 'salvador bahia': '2020-05-11', 'campo grande mato grosso do sul ': '2020-05-12'}
+
+## peso_tempo(atual,destino,lista):
+
 
 
 
