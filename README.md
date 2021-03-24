@@ -25,10 +25,10 @@ Possui duas soluções, uma na chamada /otimizar_simples/, em que foi usado o al
          {"produto": "computador", "valor": 200.0, "destino": "campo grande mato grosso do sul ", "limite": "2020-05-12"}  ]
          
 Sendo:
-produto: o nome do produto transportado
-valor: o custo do seu transporte
-destino: a cidade em que ele deve ser entregue
-limite: a data limite que o produto deve ser entregue para a empresa obter o maior lucro com o serviço
+produto: string com o nome do produto transportado
+valor:  float o custo do seu transporte
+destino: string com a cidade em que ele deve ser entregue e o seu estado
+limite: string com a data limite que o produto deve ser entregue para a empresa obter o maior lucro com o serviço necessariamente no formato:ano-mês-dia
 
 Ao final, teremos a lista das cidades, começando por São Paulo, na ordem em que as entregas deverão ser feitas.
 
