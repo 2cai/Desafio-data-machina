@@ -16,7 +16,7 @@ p : recebe um inteiro
 Se p for igual a 2, será retornado um inteiro informado a duração da viagem em minutos, caso contrarário, será retornado um texto informando quantas horas e minutos a viagem durou e a distância percorrida como no seguinte exemplo: "A distancia percorrida séra de 184,0 km  e a duração estimada é de 2 horas e 51 minutos"
 
 ### Problema 2.2:
-Possui duas soluções, uma na chamada /otimizar_simples/ e outra na /otimizar_completo/. Em ambos os casos, a entrada deve ser uma lista em que o primeiro elemento deve ser a cidade de origem dos trajeto, que nesse caso é São Paulo. A entrada deve ser passada da seguinte forma:
+Possui duas soluções, uma na chamada /otimizar_simples/, em que foi usado o algormito do vizinho mais próximo e outra na /otimizar_completo/, em que foi usado meta_heurística "simulated annealing". Em ambos os casos, a entrada deve ser uma lista em que o primeiro elemento deve ser a cidade de origem dos trajeto, que nesse caso é São Paulo. A entrada deve ser passada da seguinte forma:
 
 
 [{"produto":" ","valor":0,"destino":"sao paulo sp","limite":"2020-05-9"},
@@ -30,5 +30,7 @@ valor: o custo do seu transporte
 destino: a cidade em que ele deve ser entregue
 limite: a data limite que o produto deve ser entregue para a empresa obter o maior lucro com o serviço
 
-Ps: na chama /otimizar_completo/, foi usados para a resolução do problema a meta_heurística "simulated annealing", em que os códigos do seguinte link foram usados para usar sua implementação: https://github.com/perrygeo/simanneal 
+Ao final, teremos a lista das cidades, começando por São Paulo, na ordem em que as entregas deverão ser feitas.
+
+Ps: na chama /otimizar_completo/,os códigos do seguinte link foram usados para a implementação do "simulated annealing": https://github.com/perrygeo/simanneal 
 
