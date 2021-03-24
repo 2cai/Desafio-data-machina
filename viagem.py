@@ -3,7 +3,7 @@ from fastapi import FastAPI
 import requests
 from bs4 import BeautifulSoup
 from typing import List
-from lib_viagens import dados_viagem,otimizar,buscarmenor,i_produtos,peso_tempo,lista_cidades,peso_atraso,TravellingSalesmanProblem
+from lib_viagens import dados_viagem,otimizar,dic_datas,buscarmenor,i_produtos,peso_tempo,lista_cidades,peso_atraso,TravellingSalesmanProblem
 from collections import defaultdict
 from simanneal import Annealer
 import abc
