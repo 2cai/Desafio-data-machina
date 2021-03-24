@@ -13,7 +13,7 @@ atual : recebe uma string com o nome da cidade em que se inicia o trajeto e o no
 destino : recebe uma string com o nome da cidade de destino como no seguinte exemplo : juiz de fora minas gerais
 p : recebe um inteiro 
 
-Se p for igual a 2, será retornado um inteiro informado a duração da viagem em minutos, caso contrarário, será retornado um texto informando quantas horas e minutos a viagem durou e a distância percorrida como no seguinte exemplo: "A distancia percorrida séra de 184,0 km  e a duração estimada é de 2 horas e 51 minutos"
+Se p for igual a 2, será retornado um inteiro informado a duração da viagem em minutos, caso contrarário, será retornado um texto informando quantas horas e minutos a viagem durou e a distância percorrida como no seguinte exemplo: "A distancia percorrida no trajeto entre rio de janeiro rio de janeiro e juiz de fora minas gerais é de 184,0 km  e a duração estimada é de 2 horas e 51 minutos"
 
 ### Problema 2.2:
 Possui duas soluções, uma na chamada /otimizar_simples/, em que foi usado o algormito do vizinho mais próximo e outra na /otimizar_completo/, em que foi usado meta_heurística "simulated annealing". Em ambos os casos, a entrada deve ser uma lista em que o primeiro elemento deve ser a cidade de origem dos trajeto, que nesse caso é São Paulo. A entrada deve ser passada da seguinte forma:
