@@ -2,12 +2,32 @@
 A biblioteca lib_viagens possui as funções utilizar na execução do programa Api e possui as seguintes funções:
 
 ## dados_viagem(atual,destino,p)
-### Parâmetros
+### Parâmetros de entrada
 - atual: recebe uma string que deve possuir o nome da cidade de inicio como no seguinte exemplo: "juiz de fora minas gerais","Jaboatão dos Guararapes Recife".
 - destino: recebe uma string que deve possuir o nome da cidade de destino s como no seguinte exemplo:"rio de janeiro rj" , "Belo Horizonte Minas Gerais
 - p: inteiro
 ### Retorno
-Se p=2 , retorna o tempo da viagem em minutos, caso contrário, retorna um texto informando a duração da viagem e a distância percorrida como no seguinte exemplo: 
+Se p=2 , retorna o tempo da viagem em minutos, caso contrário, retorna um texto do tipo string informando a duração da viagem e a distância percorrida como no seguinte exemplo:
+"A distancia percorrida no trajeto entre rio de janeiro rio de janeiro e juiz de fora minas gerais é de 184,0 km e a duração estimada é de 2 horas e 51 minutos"
+
+## entrada_dados_viagem(nome)
+### Parâmetros de entrada
+- nome : recebe uma string
+### Retorno
+Retorna essa string sem acentos e com notas as letras em minúsculo, por exemplo:
+>> cidade = dados_viagem("São Paulo")
+>> print(cidade)
+>> sao paulo
+
+## buscarmenor(lst):
+### Parâmetros de entrada
+- lst: recebe uma lista de inteiros ou floats
+### Retorno
+retorna o menor elemento de lst
+
+## otimizar(lista):
+### Parâmetros de entrada
+- lista: recebe uma lista que os elementos são da seguinte forma : {produto:"nome do produto a ser transportado",}
 
 
 
