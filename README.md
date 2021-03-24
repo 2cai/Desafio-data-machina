@@ -17,7 +17,7 @@ Se p for igual a 2, será retornado um inteiro informado a duração da viagem e
 
 ### Problema 2.2:
 Possui duas soluções, uma na chamada /otimizar_simples/, em que foi usado o algormito do vizinho mais próximo e outra na /otimizar_completo/, em que foi usado meta_heurística "simulated annealing". Em ambos os casos, a entrada deve ser uma lista em que o primeiro elemento deve ser a cidade de origem dos trajeto, que nesse caso é São Paulo. A entrada deve ser passada da seguinte forma:
-[{"produto":" ","valor":0,"destino":"sao paulo sp","limite":"2020-05-9"},
+[{"produto":" ","valor":0,"destino":"sao paulo sp","limite":"2020-05-09"},
     {"produto":"sofá","valor":10.0,"destino":"juiz de fora mg","limite":"2020-05-10"},
         {"produto": "geladeira", "valor": 25.0, "destino": "salvador bahia", "limite": "2020-05-11"},
          {"produto": "computador", "valor": 54.0, "destino": "campo grande mato grosso do sul ", "limite": "2020-05-12"}  ]
