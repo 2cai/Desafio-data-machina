@@ -12,4 +12,4 @@
  - Função usada para a chamada da API "/otimizar_simples/" e retorna otimizar(lista_t)
 
  ## async def travel_otimizada (lista_t:list):
- - Função usada para a chamada da API "/otimizar_completo/" , e retorna uma lista com uma rota de viagens otimizada pelo 
+ - Função usada para a chamada da API "/otimizar_completo/" , e retorna uma lista com uma rota de viagens otimizada pelo "simulated annealing".
