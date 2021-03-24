@@ -9,9 +9,9 @@ Em seguida,copie o url de saída e adicione um "/docs" para entrar no ambiente d
 Solucionado na chamada /get_normalization/, onde a entrada deve ser uma lista de interios ou floats como o seguinte exemplo : [1,2,5,90]. Após isso, o programa retorna a lista da entrada normalizada
 ### Problema 2.2:
 Solucionado na chamada /viagem/, em que teremos de entrada os parâmetros:
-atual : recebe uma string com o nome da cidade em que se inicia o trajeto e o nome do seu estado como no seguinte exemplo : rio de janeiro rio de janeiro ou Rio de Janeiro
-destino : recebe uma string com o nome da cidade de destino como no seguinte exemplo : juiz de fora minas gerais ou Juiz de Fora Minas Gerais
-p : recebe um inteiro 
+atual : recebe uma string com o nome da cidade em que se inicia o trajeto e o nome do seu estado como no seguinte exemplo : rio de janeiro rio de janeiro ou Rio de Janeiro.
+destino : recebe uma string com o nome da cidade de destino como no seguinte exemplo : juiz de fora minas gerais ou Juiz de Fora Minas Gerais.
+p : recebe um inteiro. 
 
 Se p for igual a 2, será retornado um inteiro informado a duração da viagem em minutos, caso contrarário, será retornado um texto informando quantas horas e minutos a viagem durou e a distância percorrida como no seguinte exemplo: "A distancia percorrida no trajeto entre rio de janeiro rio de janeiro e juiz de fora minas gerais é de 184,0 km  e a duração estimada é de 2 horas e 51 minutos"
 
