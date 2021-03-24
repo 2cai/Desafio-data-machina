@@ -10,7 +10,7 @@ A biblioteca lib_viagens possui as funções utilizar na execução do programa 
 Se p=2 , retorna o tempo da viagem em minutos, caso contrário, retorna um texto do tipo string informando a duração da viagem e a distância percorrida como no seguinte exemplo:
 "A distancia percorrida no trajeto entre rio de janeiro rio de janeiro e juiz de fora minas gerais é de 184,0 km e a duração estimada é de 2 horas e 51 minutos"
 
-##(A partir daqui, todos os parâmetros de entrada atual e destino serão do mesmo formato como citado acima)
+## (A partir daqui, todos os parâmetros de entrada atual e destino serão do mesmo formato como citado acima)
 
 ## entrada_dados_viagem(nome)
 ### Parâmetros de entrada
@@ -34,6 +34,13 @@ retorna uma lista com as cidades na ordem em que devem ser feitas as entregas, e
 
 ## (A partir daqui, os parâmetros lista sempre terão esse formato como na função otimizar e o exemplo de entrada usado será o mesmo)
 
+## lista_cidades(lista):
+### Parâmetros de entrada
+- lista : (já mencionado)
+### Retorno
+Retorna uma lista com as cidades que estão nos atributos "destino" no parâmetro de entrada lista passada. 
+
+
 ## i_produtos(lista):
 ### Parâmetros de entrada:
 - lista : (como mencionado)
@@ -51,6 +58,35 @@ retorna um dicionário com cada destino tendo a porcentagem de valor no total qu
  - exemplo:{'sao paulo sp': '2020-05-09', 'juiz de fora mg': '2020-05-10', 'salvador bahia': '2020-05-11', 'campo grande mato grosso do sul ': '2020-05-12'}
 
 ## peso_tempo(atual,destino,lista):
+### Parâmetros de entrada:
+-atual: (já mencionado)
+- destino: (já mencionado)
+- lista: (já mencionada)
+
+### Retorno:
+-Retona um inteiro que é a diferença de tempo em dias entre as datas limites dos parâmetros atual e destino, em que esses dois são atributos "destino" da lista e a data, atributos "limite".
+
+## peso_atraso(atual,destino,lista):
+-atual : (já mencionado)
+- destino : (já mencionado)
+- lista : (já mencionada)
+### Parâmetros de entrada:
+-atual : (já mencionado)
+- destino : (já mencionado)
+- lista : (já mencionada)
+### Retorno:
+- Retorna o inteiro 2 se dados_viagem(atual, destino, 2)  > peso_tempo(atual, destino, lista) e o inteiro 1 se dados_viagem(atual, destino, 2)<=peso_tempo(atual, destino, lista).
+
+## TravellingSalesmanProblem(Annealer):
+Importada dos códigos indicados no README para o uso do algoritmo 
+
+
+
+
+
+ 
+
+
 
 
 
