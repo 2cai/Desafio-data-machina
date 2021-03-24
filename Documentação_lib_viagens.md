@@ -85,7 +85,7 @@ Importada dos códigos indicados no README para o uso do algoritmo "simulated an
 - sendo A = cidade atual e B = cidade destino:
  ### métrica = dados_viagem(A, B, 2)*(1 - i_produtos(lista_cidades(lista_t))[B]) * peso_atraso(atual,destino,lista_cidades(lista_t))
  
- Além disso, teremos nessa classe a função move, que troca duas métricas de lugar que seram usadas no vetor de estado do sistema no algoritmo e o a função energy que calcula a métrica no vetor estado para cidades consecutivas, duas a duas.
+ Além disso, teremos nessa classe a função move, que troca duas métricas de lugar que seram usadas no vetor de estado do sistema no algoritmo e o a função energy que calcula a métrica no vetor estado para cidades consecutivas, duas a duas, e retorna o somatório delas, indicando o "estado de energia " do sistema.
 
 
 
